@@ -101,3 +101,21 @@
                       </div>
                     </div>
                   </div>
+                    <label for="">Choose your desired crust type</label>
+                    <select class="form-control" name="" id="crust">
+                        <option value="230" name="crust">stuffed crust @ ksh 350
+                        <option value="250" name="crust">Crispy @ ksh 300
+                        <option value="300" name="crust">Glutten free @ ksh 330
+                    </select>
+                    <label for="">Choose your Desired toppings</label> <br>
+                    <input value="150" type="checkbox" id="toppingone">Mushrooms
+                    <input value="150" type="checkbox" id="toppingone">Sausage
+                    <input value="150" type="checkbox" id="toppingone">Onions
+                    <input value="150" type="checkbox" id="toppingone">Tikka Sauce
+                    <input value="150" type="checkbox" id="toppingone">Mozarella Cheese
+
+                    <label for="">Input Quantity</label>
+                    <input class="form-control form-group" type="text" id="numberofpizza">
+                    <button name="button" type="submit" id="submit" value="Check-Out"
+                        onclick="calctotalPrice()">Submit</button>
+                </form>

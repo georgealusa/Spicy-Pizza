@@ -1,1 +1,187 @@
-
+@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
+nav > ul li {
+  padding: 3px;
+  list-style: none;
+  display: inline;
+}
+nav > ul li a {
+  color: gray;
+  font-size: larger;
+}
+nav > ul li a:hover {
+  color: white;
+}
+body {
+  background-image: url("../img/fod.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+header {
+  background: rgba(0, 0, 0, 0.829);
+  text-align: center;
+  padding-top: 5%;
+  height: 2150px;
+  max-width: 1200px;
+  padding-left: 8%;
+  margin: auto;
+}
+h1 {
+  font-size: 85px;
+  font-family: "Permanent Marker", cursive;
+  color: yellow;
+}
+span {
+  color: orangered;
+}
+h3 {
+  font-size: 25px;
+  color: yellowgreen;
+}
+.card {
+  background-color: rgba(0, 0, 0, 0) !important;
+}
+.card-body {
+  border-radius: 25px;
+  box-shadow: 5px 5px 5px rgba(195, 194, 194, 0.945);
+  max-width: 1000px;
+  height: 500px;
+  align-items: center;
+  background-color: white;
+}
+.range {
+  /* display: flex; */
+  align-items: flex-start;
+}
+#pop {
+  text-align: left;
+  /* align-items: flex-start; */
+  display: inline;
+  padding-left: 5%;
+  margin-top: -0.9%;
+}
+.content {
+  float: left;
+}
+h2 {
+  text-align: center;
+  font-size: 55px;
+  font-family: "Original Surfer", cursive;
+}
+#pop > p {
+  font-size: 18px;
+}
+#menu {
+  max-width: 1200px;
+  padding-right: 8%;
+}
+.food {
+  background: white;
+}
+.col-md-3 img {
+  padding: 5%;
+  display: inline;
+}
+#lim {
+  color: white;
+}
+.order {
+  color: white;
+  padding-top: 4%;
+  padding-bottom: 4%;
+}
+.order-overlay {
+  background-color: rgba(114, 112, 112, 0.727);
+  margin-left: -2%;
+  margin-right: 8%;
+  padding-bottom: 20px;
+  padding-right: -8%;
+}
+.choice {
+  display: none;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+.deliver {
+  display: none;
+}
+.pick-up {
+  display: none;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+td,
+th {
+  font-size: 20px;
+  color: white;
+}
+.choice h2 {
+  color: orange;
+  text-align: left;
+}
+#your-orders {
+  color: white;
+  font-size: 30px;
+}
+#addedprice {
+  display: none;
+}
+#finallmessage {
+  display: none;
+  padding-top: 10%;
+  padding-right: 10%;
+  padding-left: 10%;
+  font-size: 28px;
+}
+#regards {
+  text-align: center;
+  color: aliceblue;
+}
+#info {
+  padding-top: 5%;
+  font-size: 22px;
+  padding-right: 8%;
+  padding-left: 5%;
+  color: #ffa500;
+}
+button {
+  border-radius: 15px;
+  background-color: crimson;
+}
+select {
+  margin: 15px;
+  width: 300px;
+  padding: 5px 35px 5px 5px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  height: 34px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+label{
+  font-size: 20px;
+}
+option{
+  font-size: 19px;
+}
+#information> p{
+  font-size: 20px;
+}
+#regards{
+  font-size: 20px;
+}
+ul >li{
+  list-style: none;
+}
+.con{
+ color: yellow;
+ font-size: 20px;
+}
+#con{
+  color: yellowgreen;
+  font-size: 20px;
+}
+h4{
+  font-size: 30px;
+}
